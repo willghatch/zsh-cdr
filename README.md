@@ -12,6 +12,10 @@ Alternatively, just source the .zsh file.  But seriously, use zgen.
 What is this?
 -------------
 
+`cdr` is a zsh command and some hook scaffolding to let you switch to recently used directories.
+It is particularly useful with its [zaw](https://github.com/zsh-users/zaw) plugin, letting you
+do awesome filtering on your list of recent directories.
+
 I did not make cdr -- it's shipped with zsh.  But you have to find out about it and configure it.
 This simplifies that.  It sets it all up, hassle free, so you can simply turn it on with one
 `zgen load` line in your zshrc.
